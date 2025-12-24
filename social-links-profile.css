@@ -1,0 +1,92 @@
+/*Social links profile styles*/
+
+/*Body settings*/
+*{
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', 'sans-serif';
+    padding: 0;
+    margin: 0;
+}
+
+/*Main Container settings*/
+.main-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 26rem;
+    height: 42rem;
+    padding: 12px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 8%;
+    gap: 50px;
+    box-shadow: 0 4px 20px hsla(75, 94%, 57%, 0.15), 
+            0 8px 40px hsla(75, 94%, 57%, 0.1);
+}
+
+/*Image profiel, name, location and career section settigns*/
+.name-country-career-box{
+    background: none;
+    text-align: center;
+}
+
+/*Image profile settings*/
+.img-settings{
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+
+/*Name profile settings*/
+.name-profile{
+    background: none;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/*Location settings*/
+.location{
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+}
+
+/*Career settings*/
+.career{
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    margin-top: 20px;
+}
+
+/*Profile Links settings*/
+.links-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+    gap: 16px;
+    
+}
+
+/*Link button settings*/
+.link-button{
+    text-align: center;
+    text-decoration: none;
+    font-size:15px;
+    font-weight: 700;
+    color: white;
+    background: none;
+    background-color: hsl(0, 0%, 20%);
+    padding: 15px 50px;
+    width: 62%;
+    border-radius: 8px;
+}
+
+/*Link button hover settings*/
+.link-button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
